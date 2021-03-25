@@ -1,0 +1,24 @@
+
+DEFINE_MUTEX(mutexname)
+mutex_init
+mutex_lock
+
+mutex_unlock
+mutex_is_locked
+--------
+DEFINE_SEMAPHORE(name) 
+sema_init
+down
+up
+------
+DEFINE_SPINLOCK
+spin_lock_init
+spin_lock
+spin_unlock
+--------
+static atomic_t flag
+atomic_set, atomic_read
+atomic_add, atomic_sub
+atomic_inc, atomic_dec
+-----
+https://lwn.net/Articles/65178/
